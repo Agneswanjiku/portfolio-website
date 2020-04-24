@@ -458,3 +458,6 @@ footer p:nth-child(2){
     color: #FFFFFF;
     transition: all ease 0.5s;
 }
+.video{
+    background: cover;
+}
