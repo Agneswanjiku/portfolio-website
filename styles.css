@@ -32,7 +32,8 @@ nav{
         font-weight: bold;
     }
     nav{
-
+    width:350px;
+    height: auto;
     justify-content: space-between;
     align-items: center;
     background-color: #860f15;
@@ -45,10 +46,11 @@ nav ul{
 nav ul li a{
     margin:30px;
     font-family: sans-serif;
-    color:#505050;
+    color: blue;
     font-size:15px;
     font-weight: 700;
     background-color: skyblue;
+    position: right;
 }
 .logo{
     font-family: RoadTest;
@@ -234,6 +236,7 @@ button:active{
     background-image: url("https://i.pinimg.com/originals/8b/c1/ff/8bc1fffd9ecaa0ac8e8567695480eaeb.jpg");
 }
 .box-3{
+    background: cover;
     background-image: url("https://i.pinimg.com/originals/8b/c1/ff/8bc1fffd9ecaa0ac8e8567695480eaeb.jpg");
 }
 .box-1 span{
@@ -287,11 +290,171 @@ button:active{
  line-height: 0px;
  font-size: 23px;
 }
-
-
-
-
-
-
-
-
+.box-1 span{
+    width:40px;
+    height:40px;
+    border-radius:50;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: calibri;
+    font-weight: bold;
+}
+.box-2 span{
+    width:40px;
+    height:40px;
+    border-radius:50;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: calibri;
+    font-weight: bold;
+}
+.box-3 span{
+    width:40px;
+    height:40px;
+    border-radius:50;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: calibri;
+    font-weight: bold;
+}
+.box-1:nth-child(2){
+    color:#FFFFFF;
+    font-family: calibri;
+    font-size: 23px;
+    line-height: 0px;
+}
+.box-2:nth-child(2){
+    color:#FFFFFF;
+    font-family: calibri;
+    font-size: 23px;
+    line-height: 0px;
+}
+.box-3:nth-child(2){
+    color:#FFFFFF;
+    font-family: calibri;
+    font-size: 23px;
+    line-height: 0px;
+}
+.box-1 p:nth-child(3){
+    font-family:calibri;
+    text-align:center;
+    width:23 px;
+    margin:0px 0px 20px 0px;
+    color: #8f8f8f;
+}
+.box-2 p:nth-child(3){
+    font-family:calibri;
+    text-align:center;
+    width:23 px;
+    margin:0px 0px 20px 0px;
+    color: #8f8f8f;
+}
+.box-3 p:nth-child(3){
+    font-family:calibri;
+    text-align:center;
+    width:23 px;
+    margin:0px 0px 20px 0px;
+    color: #8f8f8f;
+}
+.box-1 button{
+    width:100%;
+    height: 50px;
+    background-color: none;
+    outline: none;
+    border-radius: 5px;
+}
+.contact-me{
+    widows: 200px;;
+    height: 280px;
+    position: relative;
+    background-image:url("https://i.pinimg.com/originals/8b/c1/ff/8bc1fffd9ecaa0ac8e8567695480eaeb.jpg");
+}
+ .contact-me{
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-me p{
+    color:#FFFFFF;
+    font-size: 30px;
+    font-family: calibri;
+    font-weight:bold;
+    border-bottom: 2px solid #FFFFFF;
+}
+.contact-me button{
+    width:200px;
+    height:40px;
+    background-color:#FFFFFF;
+    outline: none;
+    border:none;
+    font-size: 14px;
+    font-weight: bold;
+}
+footer{
+    height:300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+footer p{
+    font-family: calibri;
+}
+footer p:nth-child(1){
+    font-weight: bold;
+    color: #191919;
+    line-height: 10px;
+}
+footer p:nth-child(2){
+    font-size: 16px;
+    color: #7e7d7d;
+    width: 600px;
+    text-align: center;
+}
+.social-icons a{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-icons a{
+    width:40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6e3e3;
+    margin: 20px 10px;
+    border-radius: 50%;
+}
+.social-icons{
+    display: flex;
+}
+.copyright{
+    color: #565555;
+    font-size: 15px;
+    position: absolute;
+    left: 50%;
+    bottom:10px;
+    transform:translateX(-50%);
+}
+.social-icons i{
+    color: #000000;
+}
+.social-icons a:hover{
+    background-color: #000000;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0,0.2);
+    transition: all ease o.5s;
+}
+.social-icons a:hover i{
+    color: #FFFFFF;
+    transition: all ease 0.5s;
+}
